@@ -9,6 +9,7 @@ Estas são as etapas para executar o projeto:
 ### Requisitos
 
 Python 3.9=>
+
 Node.js
 
 #### Backend

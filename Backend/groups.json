@@ -1,0 +1,26 @@
+[
+    {
+      "model": "core.group",
+      "pk": 1,
+      "fields": {
+        "cod": 1,
+        "description": "Adm"
+      }
+    },
+    {
+      "model": "core.group",
+      "pk": 2,
+      "fields": {
+        "cod": 15,
+        "description": "Comercial"
+      }
+    },
+    {
+      "model": "core.group",
+      "pk": 3,
+      "fields": {
+        "cod": 30,
+        "description": "RH"
+      }
+    }
+]

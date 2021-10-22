@@ -1,0 +1,65 @@
+[
+    {
+      "model": "core.group",
+      "pk": 1,
+      "fields": {
+        "cod": 1,
+        "description": "Adm"
+      }
+    },
+    {
+      "model": "core.group",
+      "pk": 2,
+      "fields": {
+        "cod": 15,
+        "description": "Comercial"
+      }
+    },
+    {
+      "model": "core.group",
+      "pk": 3,
+      "fields": {
+        "cod": 30,
+        "description": "RH"
+      }
+    },
+    {
+      "model": "core.certificado", 
+      "pk": 1, 
+      "fields": {
+        "username": "joao", 
+        "name": "João da Silva", 
+        "description": "", 
+        "expiration": 10, 
+        "created_at": "2021-10-21T13:45:11-03:00", 
+        "updated_at": "2021-10-21T13:45:11-03:00", 
+        "groups": [2]
+        }
+    },
+    {
+      "model": "core.certificado", 
+      "pk": 2, 
+      "fields": {
+        "username": "viEma", 
+        "name": "Vitória Emanuely", 
+        "description": "Sistemas em Informação", 
+        "expiration": 30, 
+        "created_at": "2021-10-14T13:45:11-03:00", 
+        "updated_at": "2021-10-14T13:45:11-03:00", 
+        "groups": [1]
+        }
+    },
+    {
+      "model": "core.certificado", 
+      "pk": 3, 
+      "fields": {
+        "username": "lulu", 
+        "name": "Luiza Winchester", 
+        "description": "Marketing", 
+        "expiration": 15, 
+        "created_at": "2021-10-14T13:45:11-03:00", 
+        "updated_at": "2021-10-14T13:45:11-03:00", 
+        "groups": [3]
+        }
+    }
+]

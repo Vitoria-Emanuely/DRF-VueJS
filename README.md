@@ -38,9 +38,9 @@ Node.js
    ```sh
    python manage.py migrate
    ```
-7. Carregar dados iniciais do banco (obrigatório caso não baixe diretamente o banco de dados)
+7. Carregar dados iniciais do banco (obrigatório)
    ```sh
-   python manage.py loaddata groups.json
+   python manage.py loaddata populate.json
    ```
 8. Executar a aplicação
    ```sh
